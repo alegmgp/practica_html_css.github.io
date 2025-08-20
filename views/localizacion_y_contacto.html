@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0, maximum-scale:1.5">
+    <title>Localización y contacto</title>
+    <meta name="keywords" content="Clinica veterinaria de rehabilitación, fisioterapia  para perros y gatos, especializados en rehabilitación veterinaria">
+    <meta name="description" content="Clinica veterinaria especializada en rehabilitación para perros y gatos">
+    <meta name="owner" content="AleGM">
+    <meta name="author" content="AleGM">
+    <meta name=”robots” content=”index,follow”> 
+    
+    
+    <script src="../js/modernizr-custom.js"></script>
+
+    <link rel="stylesheet" href="../css/normalize_style.css">
+    <link rel="stylesheet" href="../assets/icons/icomoon/IcomoonStyle.css">
+    <link rel="stylesheet" href="../assets/fonts/Jura/">
+    <link rel="stylesheet" href="../assets/fonts/Onest/">
+    <link rel="stylesheet" href="../assets/fonts/Parkinsans/">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <link rel="icon"  type="image/png" href="../assets/images/—Pngtree—dog-and-cat-silhouette-vector_4960662.png">
+</head>
+<body>
+    
+<header>
+    
+    <div class="hero">
+        <figure class="hero_logo"><img src="../assets/images/—Pngtree—dog-and-cat-silhouette-vector_4960662.png" alt="logotipo empresa RehabilitaVet con silueta de perro y gato en simbolo ying yang" width="1200" height="1200"><span>PNG de es.pngtree.com</span></figure>
+        <h1>RehabilitaVet</h1>
+   </div>
+
+   <nav id="ioMenu">
+        <figure id="showMenu" class="ioMenuMovil" onclick="displayMenu('prev')"><img src="../assets/icons/pet_9627651.png" alt="imagen de silueta de huella de perro para el menu" width="512" height="512"></figure>
+
+        <div id="card_menu">
+            <figure id="hideMenu" class="ioMenuMovil" onclick="displayMenu('next')"><img src="../assets/icons/close_8847679.png" alt="imagen salida menu forma de equis en color azul" width="512" height="512"></figure>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="views/tecnicas_de_rehabilitacion.html">Técnicas de rehabilitación</a></li>
+                <li><a href="views/portfolio.html">Portfolio</a></li>
+                <li><a href="#" class="active">Localización y Contacto</a></li>
+                <li><a href="views/presupuesto.html">Presupuesto</a></li>
+                <li><a href="views/enlaces_de_interes.html">Enlaces de interés</a></li>
+                <li><a href="views/privacidad_datos.html">Privacidad de datos</a></li>
+
+                
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<main>
+     <div class="imagen_form">
+        <figure><img src="../assets/images/—Pngtree—dog-and-cat-paw_14560816.png" alt="imagen de un perro y gato tumbados mirando al frente" width="4096" height="4096"></figure>
+        <span>Imagen PNG de es.pngtree.com</span>
+     </div>
+    
+    <section id="sec_localizacion">
+         <h2 class="titulo_localizacion">Puedes encontrarnos en:</h2>
+        <div class="div_localizacion">             
+             <figure><img src="../assets/icons/location_6066671.png" alt="icono de localizacion color azul" width="512" height="512"></figure>
+             <p>Calle ggggggggg, nº X, cp/xxxxx, Ssssssss.</p>
+             <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6083.232764048553!2d-3.8630792972656023!3d40.32867063359829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1754580382906!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="div_telefono">
+            <figure><img src="../assets/icons/phone_10147892.png" alt="icono de telefono color azul" width="512" height="512"></figure>
+            <p>91-000-00-00  / 600-00-00-00</p>
+        </div>
+        <div class="div_email">
+            <figure><img src="../assets/icons/email_6068757.png" alt="icono email color azul" width="512" height="512"></figure>
+            <p>contacto@recuperavet.com</p>
+        </div>
+         <div class="div_horario">
+            <figure><img src="../assets/icons/clock_10147619.png" alt="icono reloj color azul" width="512" height="512"></figure>
+            <p class="horario_p">Nuestro horario:
+            Lunes a Viernes: de 8:00h a 22:00h.
+            Sábados y Domingos: de 9:00h a 21:00h.</p>
+        </div>
+
+    </section>
+
+    <section id="formulario">
+        <div>
+             <h3 class="titulo_formulario">Si lo prefieres, puedes rellenar nuestro 
+                <span>formulario de contacto</span>
+                y te responderemos lo antes posible.</h3>
+         </div>
+
+       <form id="myForm" name="myForm" action="#" method="get" target="_self">
+            <div id="myForm_contenedor">
+                <fieldset>
+                    <legend>Datos personales</legend>
+
+                    <label for="name">Nombre:</label>
+                    <input type="text" name="name" id="name" size="38" placeholder="Escriba su nombre" pattern="[A-Z a-z]{2,25}" title="Escriba su nombre." required>
+
+                    <label for="surname">Apellidos:</label>
+                    <input type="text" name="surname" id="surname" size="38" placeholder="Escriba sus apellidos" pattern="[A-Z a-z]{2,60}" title="Escriba sus apellidos." required>
+
+                    <label for="telephone">Teléfono:</label>
+                    <input type="tel"  name="telephone" id="telephone" size="18" placeholder="Escriba su teléfono" pattern="[0-9]{9}" title="Escriba su teléfono de contacto SIN espacios." required>
+
+                    <label for="mail">Correo electrónico:</label>
+                    <input type="email" name="mail" id="mail" size="38" placeholder="Escriba su email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" title="Escriba su correo electrónico. Ejemplo: midireccion@gmail.com" required>
+                    
+                    <label for="message">Mensaje</label>
+                    <textarea name="message" id="message" placeholder="Escriba su mensaje." title="Escriba su mensaje." required></textarea>
+                    
+                    <label for="aceptar_privacidad" class="aceptar_privacidad">
+                    <input type="checkbox" id="aceptar_privacidad" name="aceptar_privacidad" required>He leído y acepto la <a href="../documents/politicaPrivacidadDatos.doc">política de privacidad de datos</a></label>
+
+                </fieldset>
+
+                <input id="boton_enviar" type="submit" value="Enviar">
+                <input id="boton_borrar" type="reset" value="Borrar">
+
+            </div>
+        </form>
+    </section>
+
+      <div class="flecha_top_localizacion">
+            <a href="#">
+                <img src="../assets/icons/down-right-arrow_5548720.png" alt="flecha para volver incio web" title="flecha volver inicio web" width="512" height="512">
+            </a>
+    </div>
+   
+</main>
+
+
+
+<footer>
+    <div class="footer_container">
+        <div class="footer_datos">  
+            <figure class="footer_logo"><img src="../assets/images/—Pngtree—dog-and-cat-silhouette-vector_4960662.png" alt="logotipo empresa RehabilitaVet con silueta de perro y gato en simbolo ying yang" width="1200" height="1200"><span>Imagen PNG de es.pngtree.com</span></figure>
+            <h1>RehabilitaVet</h1>   
+            <ul>                     
+                <li>Calle ggggggggg, nº X, cp/xxxxx, Ssssssss.</li>
+                <li>91-000-00-00  / 600-00-00-00</li>
+                <li>contacto@recuperavet.com</li>
+            </ul>         
+             
+        </div>
+
+        <div class="privacity_footer">
+            <ul>
+                <li>&#169; 2025 All rights reserved</li>
+                <li><a class="privacity" href="../documents/politicaPrivacidadDatos.doc" target="_blank" rel="noopener noreferrer"> Privacity policy</a></li>
+            </ul>        
+        </div>
+    
+        <div class="rrss">
+            <h3 class="titulo_rrss">Puedes encontrarnos en:</h3>
+            <ul>
+                <li><a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"><span class="icon-facebook"></span></a></li>
+                <li><a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" ><span class="icon-instagram"></span></a></li>
+                <li><a href="https://www.x.com" target="_blank" rel="noopener noreferrer"><span class="icon-x"></span></a></li>
+                <li><a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer"><span class="icon-youtube"></span></a></li>
+            </ul>
+        </div>
+
+    </div>
+</footer>
+
+<script src="../js/javascript.js"></script>
+<!--google analytics-->
+<!--google analytics-->
+
+</body>
+</html>

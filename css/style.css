@@ -1,0 +1,1222 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'jura' , 'Onest' , 'Parkinsans';
+    position: relative;
+    min-height: 100vh;
+    background-color: white;
+    padding-bottom: 26rem;  
+         
+}
+
+
+/******************************************************************************************************
+*****************************************************HEADER*******************************************/
+
+header{
+   background:  #c5cae9;           
+   width:100%;
+   height: 90px;
+   position: absolute;
+   z-index: 999;
+   
+}
+
+.hero {
+   position: absolute;  
+   width: 100%;
+   height: 70px;
+    
+}
+
+
+.hero > h1 {
+   position: absolute;
+    width: 55%;
+    color: #2f78e7;
+    font-family: 'jura' , sans-serif;
+    font-size: 2.4em;
+    text-align: center;
+    vertical-align: middle;
+    top: -9px;
+    left: 140px;
+    right: 0;
+    text-shadow: 0.5px 0.5px #82817f;
+
+}
+
+.hero_logo >img{
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    text-align: center;
+    vertical-align: middle;
+    top: 0px;
+    left: 80px;
+    right: 0;
+     
+  }
+
+/***************************************************************************************************
+******************AUTORIZACION LOGO HEADER Y FOOTER************************************************/
+
+.hero span,
+.footer_logo span{
+   font-size: 8px; 
+   position: absolute;  
+   display: block;
+   padding-left: 5px;
+}
+
+.hero span{
+   margin-top: 1px;
+   padding-bottom: 0;
+}
+.footer_logo span{
+   margin-top: -2.8rem;
+}
+
+/****************************************************************************************************************
+*************************************************NAV BAR********************************************************/
+
+
+header nav #ioMenu{
+    position: absolute;  
+    height:300px;
+}
+
+header nav #card_menu .ioMenuMovil{
+   height: 100%;
+   margin-right:20px;
+}
+
+
+header nav #showMenu img{
+   height: 40px;
+   width: 40px;
+   cursor:pointer;
+   margin-top: 50px;
+   margin-left: 20px;
+
+}
+
+header nav #card_menu{
+   position: relative;
+   display: block;
+   width:240px;
+   height: 320px;
+   background: #c5cae9;
+   top: -39px;
+   left: 10px;
+   z-index:999;
+   padding-bottom: 30px;
+   box-shadow: 2px 2px 5px #82817f ;
+}
+
+header nav #hideMenu img{ 
+   height: 45px;
+   width: 45px;
+   cursor:pointer;
+   margin-top: 5px;
+   margin-left: 5px;
+
+}
+header nav #card_menu ul{
+   width: 80%;
+   position: absolute;
+   top: 60px;
+   left: 24px;
+   padding-left: 5px;
+   z-index:999;
+  
+}
+
+header nav #card_menu ul li{
+   list-style:  none;
+   font-family: 'jura' , sans-serif;
+   font-weight: bold;
+   font-size: 0.9em;
+}
+
+header nav #card_menu ul li a{
+    text-decoration: none;
+    text-align: center;
+    color: #2f78e7;
+    cursor:pointer;
+    line-height: 35px;
+    text-shadow: 0.5px 0.5px #82817f;
+     
+}
+
+header nav #card_menu ul li a:hover{
+    color: #e79e2f
+     
+}
+
+ #card_menu ul li .active {
+   color:#f19226;
+}
+
+
+/************************************************************MAIN  SECTION*********************************************************/
+
+
+/***************************************************
+*************TITULOS COMPARTIDOS******************/
+
+
+ .titulo_h {
+   font-size: 1.6em;
+   color:#2f78e7;
+   text-shadow: 0.5px 0.5px #82817f;
+   text-align: center;
+   vertical-align: middle;
+   position: relative;
+   top: 8rem;
+   margin-left: 0.5rem;
+   margin-right: 0.5rem;
+   
+}
+
+.titulo_medio {
+   position: relative;
+   font-size: 1.5em;
+   color:#2f78e7;
+   text-shadow: 0.5px 0.5px #82817f;
+   text-align: center;
+   vertical-align: middle;
+   top: 10rem;
+   margin-bottom: 1.2rem;
+   
+}
+
+/********FORMATO COMUN DE PARRAFOS**********************************
+*************SEC INCIO Y SEC INTERES*******************************/
+
+#sec_inicio p,
+#sec_inicio_instalaciones p,
+#sec_inicio_laboratorio p,
+#sec_fisioterapia p,
+#sec_terapeuticos p,
+#sec_laserterapia p,
+#sec_hidroterapia p{
+   position: relative;
+   margin: 0 3.2rem 0 3.2rem;
+   top: 11.2rem;
+   font-size: 1.1em;
+   color: black;
+   justify-content: center;
+   white-space: pre-line;
+   text-align: left;
+   text-indent: 1.1rem;
+   margin-top: 0.5rem;
+   margin-bottom: 2.1rem;
+}
+
+/********************FORMATO COMUN IMAGENES************************
+*******************SEC PAG PRINCIPAL y SEC TECNICAS***************/
+
+
+#sec_inicio,
+#sec_inicio_instalaciones,
+#sec_inicio_laboratorio,
+#sec_fisioterapia,
+#sec_terapeuticos,
+#sec_laserterapia,
+#sec_hidroterapia{
+   width: 100%;
+   font-family: 'onest' , sans-serif; 
+   font-size: 1em;
+   position: relative;
+   display:block;
+   
+}
+
+.sec_inicio_img,
+.sec_inicio_instalaciones_img,
+.sec_inicio_laboratorio_img,
+.sec_fisioterapia_img,
+.sec_terapeuticos_img,
+.sec_laserterapia_img,
+.sec_hidroterapia_img{
+   position: relative;
+   display: flex;
+   top:5.3rem;
+   justify-content: center;
+   vertical-align: middle;
+ 
+}
+
+.sec_inicio_img img,
+.sec_inicio_instalaciones_img img,
+.sec_inicio_laboratorio_img img,
+.sec_fisioterapia_img img,
+.sec_terapeuticos_img img,
+.sec_laserterapia_img img,
+.sec_hidroterapia_img img{
+   width: 60%;
+   height: 60%;
+   justify-content: center;
+   align-items: center;
+   margin: 0px 10px 20px 10px;
+   border: solid 2px #82817f;
+   -o-object-fit: cover;
+      object-fit: cover;
+
+}
+
+
+
+/************************************SEC INICIO*********************************/
+
+.sec_inicio_img{
+   top: 10rem;
+   }
+
+.sec_inicio_instalaciones_img{
+   top: 12rem;
+   padding-bottom: 2rem;
+}
+
+.sec_inicio_laboratorio_img{
+   top: 11rem;
+   padding-bottom: 2rem;
+}
+
+#sec_inicio_instalaciones .titulo_h{
+   top: 11rem;
+}
+
+#sec_inicio_laboratorio .titulo_h{
+   top: 10rem;
+}
+
+.autoria_inicio,
+.autoria{
+   font-size: 8px;
+   position: absolute;
+   display: inline;
+}
+
+.autoria_inicio{
+   bottom: 0rem;
+}
+
+.autoria{
+  bottom: 2rem;
+}
+
+
+/*****************SEC TECNICAS DE REHABILITACION*******************/
+
+.sec_fisioterapia_img,
+.sec_terapeuticos_img{
+   top: 11rem;
+}
+
+.sec_laserterapia_img,
+.sec_hidroterapia_img{
+   top: 10rem;
+}
+
+.autoria_tecnicas{
+   font-size: 8px;
+   position: absolute;
+   display: inline;
+   bottom: 0;
+}
+
+
+/*********************************SEC PORTFOLIO***************************/
+
+#portfolio{
+   width: 100%;
+   position: relative;
+   place-content: center;
+   place-items: center;
+}
+
+#galeria{
+   display: grid;
+   margin-top: 10rem;
+   padding: 15px;
+   gap: 10px;
+   grid-template-columns: repeat(2 , 1fr);
+   grid-template-rows: minmax(180px , 1fr);
+   grid-auto-flow: dense; 
+
+}
+
+#galeria img{
+   position: relative; 
+   width: 100%;
+   height: 100%;
+   border: solid 2px #82817f;
+   -o-object-fit: cover;
+      object-fit: cover;      
+}
+
+.galeria_item{
+   position: relative;
+   grid-column: span 1;
+}
+
+.galeria_item:nth-child(1),
+.galeria_item:nth-child(13){
+   grid-column: span 2;
+}
+
+.galeria_item:nth-child(9),
+.galeria_item:nth-child(15){
+    grid-row: span 2;
+}
+
+.autoria_portfolio{
+   position: relative;
+   font-size: 10px;
+     
+}
+
+
+/*********************SECCION LOCALIZACION Y FORMULARIO***************/
+
+#sec_localizacion{
+   display: block;
+   position: relative;
+   text-align: center;
+   font-size: 1.1rem;
+   font-weight: bolder;
+   margin-top: 7rem;
+   padding-top: 4%;
+   padding-bottom: 4%;
+   
+}
+
+#sec_localizacion p{
+   padding-top: 12px;
+   line-height: 1.5;
+}
+
+.div_localizacion,
+.div_telefono,
+.div_email{
+   position: relative;
+   padding-bottom: 20px;
+}
+
+.horario_p{
+   white-space: pre-line;
+}
+.map{
+   width: 80%;
+   min-width: 350px;
+   max-width: 620px;
+   box-shadow: 3px 2px 3px #82817f;
+   margin-top: 2rem;
+}
+
+#sec_localizacion figure img{
+   width: 50px;
+   height: 50px;
+}
+
+.imagen_form{
+   position: relative;
+   display: flex;
+   top: 5.3rem;
+   justify-content: center;
+   vertical-align: middle;
+}
+
+.imagen_form >span{
+   position: absolute;
+   margin-top: 17rem;
+   font-size: 14px;
+}
+
+.imagen_form img{
+   width: 300px;
+   height: 300px;
+   padding-bottom: 15px;
+   margin-left: 5%;
+   -o-object-fit: cover;
+      object-fit: cover;
+  
+}
+
+/*********FORMULARIO CONTACTO**************/
+
+.titulo_localizacion,
+.titulo_formulario{
+   position: relative;
+   color:#2f78e7;
+   text-shadow: 0.5px 0.5px #82817f;
+   text-align: center;
+   vertical-align: middle;
+   margin-left: 1.5rem;
+   margin-right: 1.5rem;
+}
+
+.titulo_localizacion{
+   top: -1.8rem;
+   font-size: 1.7em;
+}
+
+.titulo_formulario{
+   top: 0.5rem;
+   font-size:1.6rem;
+   font-size: 1.3rem;
+   line-height: 1.6rem;
+   white-space: pre-line;
+
+}
+
+.titulo_formulario span{
+   color:#f19226;
+   font-size: 1.6rem;
+}
+
+#formulario{
+   text-align: center;
+   vertical-align: middle;
+   position: relative;
+      
+}
+
+#myForm_contenedor legend{
+   font-weight: bold;
+   padding-bottom: 25px;
+}
+
+#myForm_contenedor{
+   background-image: url(../assets/images/freepik__adjust__83686.png);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size:205%;
+   font-family: 'jura' , sans-serif;
+   font-size: 1.1rem;
+   padding:16px;
+   padding-top: 55px;
+   margin-top: 8%;
+   margin-left: 1.2rem;
+   margin-right: 1.2rem;
+   min-width: 450px;
+   max-width: 750px ;
+   height: 580px;
+   text-align: center;
+   vertical-align: middle;   
+   box-shadow: 3px 3px 2px #82817f;
+}
+
+
+textarea{
+   width: 300px;
+   height: 150px;
+   
+}
+
+
+/***********************************************************************************
+*****ESTILOS LABEL/IMPUT COMUNES FORMULARIO CONTACTO Y FORMULARIO PPTO***********/
+
+label{
+   display: block;
+
+}
+
+#myForm input[type="text"],
+#myForm input[type="tel"],
+#myForm input[type="email"],
+#myPtto input[type="text"],
+#myPtto input[type="tel"],
+#myPtto input[type="email"],
+textarea{
+   vertical-align:middle;  
+   margin-bottom: 5px;
+   border-radius: 5px;
+}
+
+
+#myForm input[type="text"]:hover,
+#myForm input[type="tel"]:hover,
+#myForm input[type="email"]:hover,
+#myPtto input[type="text"]:hover,
+#myPtto input[type="tel"]:hover,
+#myPtto input[type="email"]:hover,
+textarea:hover{
+   background-color: #dbdcde;
+
+}
+
+.aceptar_privacidad{
+   font-size: 0.9rem;
+}
+
+
+#myForm_contenedor a,
+#myPtto_contenedor a{
+   color:#f19226;
+   text-decoration: none;
+   font-weight: bolder;    
+   text-shadow: 0.5px 0.5px #82817f;
+
+}
+
+#myForm_contenedor a:hover,
+#myPtto_contenedor a:hover{
+   text-decoration: underline;
+   cursor: pointer;
+}
+
+#myForm_contenedor > input[type="submit"],
+#myForm_contenedor > input[type="reset"],
+#myPtto_contenedor > input[type="submit"],
+#myPtto_contenedor > input[type="reset"]{
+   text-align: center;
+   display: inline;
+   padding: 0.2rem;
+   margin-top: 0.7rem;
+   margin-right: 0.4rem;
+   width: 75px;
+   height: 40px;
+   background-color: #dbdcde;
+   transition: 0.4s ease-in-out;
+   box-shadow: 3px 3px 3px #82817f;
+}
+
+#myForm_contenedor > input[type="submit"]:hover,
+#myPtto_contenedor > input[type="submit"]:hover{
+   background-color: #f19226;
+   text-shadow: 0.5px 0.5px #82817f;
+   width: 85px;
+   height: 45px;
+   
+}
+
+#myForm_contenedor > input[type="reset"]:hover,
+#myPtto_contenedor > input[type="reset"]:hover{
+   background-color: #82817f;
+   text-shadow: 0.5px 0.5px #82817f;
+   width: 90px;
+   height: 45px;
+}
+
+/**************************SEC PRESUPUESTO Y FORM PRESUPUESTO*******************/
+
+#formulario_ppto{
+   position: relative;
+   text-align: center;
+   top: 7rem;
+   
+}
+
+
+.titulo_formulario_ppto{
+   position: relative;
+   color:#2f78e7;
+   text-shadow: 0.5px 0.5px #82817f;
+   text-align: center;
+   font-size: 1.5rem;
+   top: 1rem;
+   white-space: pre-line;
+
+}
+
+.titulo_formulario_ppto > span{
+   color:#f19226;
+
+}
+
+
+#myPtto_contenedor{
+   background-color: rgb(172, 212, 240);
+   font-family: 'jura' , sans-serif;
+   font-size: 1.1rem;
+   margin-top: 10%;
+   padding: 20px;
+   margin-left: 1.2rem;
+   margin-right: 1.2rem;
+   min-width: 450px;
+   max-width: 850px;
+   height: 650px;
+   box-shadow: 3px 3px 3px #82817f;
+} 
+
+#myPtto_contenedor legend{
+   font-weight: bold;
+   padding-bottom: 25px;
+   
+}
+
+
+/****************************SECCION ENLACES DE INTERES************************/
+
+#sec_interes>.titulo_h{
+   top: 8.5rem;
+}
+#sec_interes ul{
+   text-align: center;
+   vertical-align: middle;
+   position: relative;
+   top: 7rem;
+}
+
+#sec_interes h2{
+   top: 7rem;
+   font-size: 1.8rem;
+}
+
+#sec_interes h3{
+   top:8.1rem;
+   font-size: 1.4rem;
+}
+
+#sec_interes li{
+   font-size: 1.4rem;
+   font-weight: bolder;
+}
+
+#sec_interes a{
+   text-shadow: 0.5px 0.5px #82817f;
+   text-decoration: none;
+   color: black;
+   
+}
+
+#sec_interes a:hover{
+   color:  #f19226;
+   text-shadow: 0.5px 0.5px #82817f;
+
+}
+
+#sec_interes figure{
+   position: relative;
+   top: 7.8rem;
+   text-align: center;
+   padding-bottom: 2%;
+   padding-top: 2%;
+}
+
+#sec_interes img{
+   width: 50px;
+   height: 50px;
+}
+
+
+/************************SEC PRIVACIDAD DATOS***********************/
+
+.titulo_privacidad,
+.titulo_m_privacidad{
+   position: relative;
+   font-size: 1.3em;
+   color: #2f78e7;
+   text-shadow: 0.5px 0.5px #82817f;
+   text-align: center;
+   vertical-align: middle;
+   top: 8.5rem;
+}
+
+.titulo_m_privacidad{
+   position: relative;
+}
+
+.titulo_descargar{
+   position: relative;
+   font-size: 1.1em;
+   color: #2f78e7;
+   text-shadow: 0.5px 0.5px #82817f;
+   text-align: center;
+   vertical-align: middle;
+   top: 9.5rem;
+}
+
+.descargar_privacidad a{
+   color: #f19226;
+   text-shadow: 0.5px 0.5px #82817f;
+   font-size: 1.1em;
+   display: block;
+   position: relative;
+   text-align: center;
+   top: 9.5rem;
+   text-decoration: none;
+   font-weight: bold;
+   cursor: pointer;
+}
+
+.descargar_privacidad a:hover{
+   cursor:pointer;
+   text-decoration: underline;
+   text-shadow: 0.5px 0.5px #82817f;
+
+}
+
+#privacidad_datos p {
+   position: relative;
+   margin: 0 3.2rem 0 3.2rem;
+   top: 11rem;
+   font-size: 1.2em;
+   color: black;
+   justify-content: center;
+   text-align: left;
+   text-indent: 1.1rem;   
+}
+
+
+/***************************************************************************************************
+************************************************FLECHA_TOP*****************************************/
+
+.flecha_top,
+.flecha_top_localizacion{
+   transform: rotate(-135deg);
+   position: fixed;
+   opacity: 0.7;
+   transition: all 0.3s ease-in-out;
+   z-index: 90;
+}
+
+.flecha_top{
+   top:60%;
+   right: 6%;
+}
+
+.flecha_top_localizacion{
+   top:50%;
+   right: 0;
+}
+
+.flecha_top img,
+.flecha_top_localizacion img{
+   width: 30px;
+   height: 30px;
+}
+
+.flecha_top:hover,
+.flecha_top_localizacion:hover{
+   cursor: pointer;
+   opacity: 1;
+} 
+
+.flecha_top img:hover,
+.flecha_top_localizacion img:hover{
+  width: 40px;
+  height: 40px;
+}
+
+/***************************************************************************************************
+***************************************************FOOTER********************************************/
+
+footer{
+   position: absolute;
+   width: 100%;
+   background:  rgb(172, 212, 240);
+   bottom: 0;
+   font-family: 'jura' , sans-serif;
+    
+}
+
+.footer_container{
+    width: 85%;
+  
+}
+
+/*****************FOOTER DATOS***************/
+
+.footer_datos{
+   display: block;
+   text-align: center;
+   top: 1rem;
+}
+
+
+.footer_logo img{
+   width: 60px;
+   height: 60px;
+   margin-left: -10rem;
+   
+}
+
+.footer_datos h1{
+   color: #2f78e7;
+   text-shadow: 0.5px 0.5px #82817f;
+   font-size: 1.5rem;  
+   margin-top: -3rem;
+   margin-left: 5.5rem;
+}
+
+.footer_datos ul li{ 
+   color: #2f78e7;
+   text-shadow: 0.5px 0.5px #82817f;
+   font-size: 0.9rem;
+   list-style: none;
+   margin-left: 3rem;
+          
+}
+
+/*****************FOOTER PRIVACIDAD****************/
+
+.privacity_footer{
+   display: block;
+   font-size: 0.7rem;
+   text-align: center;
+   color: black;
+   margin-top: 1rem;
+   margin-left: 5.5rem;
+
+}
+
+.privacity_footer ul>li{
+   list-style: none;
+}
+
+.privacity_footer a {
+   text-decoration: none;
+   color:  #f19226;
+   text-shadow: 0.5px 0.5px #82817f;
+   font-size: 0.8rem;
+   text-align: center;
+}
+
+.privacity_footer a:hover{
+   font-size: 0.9rem;
+   cursor: pointer;
+   text-decoration: underline;
+} 
+
+/*****************FOOTER RRSS****************/
+
+.rrss{
+   justify-content: center;
+   margin-top: 1rem;
+   margin-left: 2.5rem ;
+   transition: all 0.3s ease-in-out;
+}
+
+.rrss h3{
+   color: white;
+   font-size: 0.7rem;
+   text-shadow: 0.5px 0.5px #82817f;
+   text-align: center;
+}
+
+
+.rrss ul li{
+   display: inline-block;
+   text-align: center;
+   justify-content: center;
+   margin-top: 1rem;
+   margin-bottom: 0.9rem;
+   margin-left: 4rem;
+   list-style: none;
+   font-size: 1.4rem;
+   font-family: 'icomoon';
+   transition: all 0.2s ease;
+   opacity: 0.8;
+  
+}
+
+.rrss li>a{
+   text-decoration: none;
+  
+}
+
+.rrss ul>li:hover{
+   transform: scale(1.5);
+   opacity: 1;
+   cursor: pointer;
+   
+ }
+
+
+/***********************************************************************************
+******************************ERROR 404************************************************/
+
+#sec_error{
+   width: 100%;
+   position: relative;
+   display:block;
+      
+}
+
+.titulo_error{
+   font-family: 'onest' , sans-serif; 
+   font-size: 1.5em;
+   color:#2f78e7;
+   text-shadow: 0.5px 0.5px #82817f;
+   text-align: center;
+   vertical-align: middle;
+   position: relative;
+   top: 8rem;
+   transition: all 0.2s ease-in-out;
+}
+
+.imagen_error{
+   position: relative;
+   display: flex;
+   top: 10rem;
+   text-align: center;
+  
+}
+
+.imagen_error img{
+  width: 90%;
+  height: 90%;
+  padding: 15px;
+   -o-object-fit: cover;
+      object-fit: cover;
+}
+
+.titulo_error_abajo{
+   font-family: 'onest' , sans-serif; 
+   font-size: 1.5em;
+   color:#2f78e7;
+   text-shadow: 0.5px 0.5px #82817f;
+   text-align: center;
+   vertical-align: middle;
+   position: relative;
+   bottom: -10rem;
+   transition: all 0.2s ease-in-out;
+    
+}
+
+.titulo_error:hover,
+.titulo_error_abajo:hover{
+   color: #f19226;
+   transform: scaleY(1.5);
+}
+
+.autoria_error{
+   display: flex;
+   font-size: 8px;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+/***********************************************************************************************************
+******************************************************@MEDIA***********************************************/
+
+
+@media screen and (min-width: 600px){  
+
+.hero > h1 {
+   width: 70%;   
+   font-size: 3.4em;   
+   top: -22px;
+
+} 
+ .hero_logo >img{
+   width: 110px;
+   height: 110px;    
+   left: 75px;
+   top: -2px;
+    
+  }
+
+ .flecha_top,
+ .flecha_top_localizacion{
+   right:4%
+   } 
+
+.imagen_form img{
+   width: 320px;
+   height: 320px;
+  
+}
+.imagen_form >span{
+   margin-top: 18rem;
+}
+
+#myForm_contenedor{
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.footer_datos{
+   margin-left: 16%;
+}
+
+.privacity_footer{
+   margin-left: 20%;
+}
+
+.rrss h3{
+   margin-left: 19%;
+}
+.rrss ul li{
+   margin-left: 18%;
+   font-size: 1.3rem;
+   
+}
+}
+
+
+
+@media screen and (min-width: 767px){  
+ 
+.hero > h1 {
+   letter-spacing: 1.3px;
+   font-size: 3.3em;
+   position: relative;
+   top: -140px;
+   right: 0;
+   left: 170px; 
+}
+
+.hero_logo >img{
+    position: relative;
+    width: 105px;
+    height: 105px;
+    left: 25px;
+    right:0;
+    top: -18px;
+    
+}
+
+.hero span{
+  margin-top: -107px;
+  margin-left: 120px;
+
+}
+
+header nav #showMenu,
+header nav #hideMenu{
+   display: none;
+
+}
+
+
+header nav{   
+   height:45%;
+   position: relative;
+   top: 65%;
+        
+}
+
+header nav #card_menu{
+   position: absolute;  
+   display: inline;
+   width: 100%;
+   height: 90%;
+   padding: 2px;
+   left: 0;
+   right: 0;
+   top: 8px;    
+   box-shadow: none;
+   
+}
+
+  header nav #card_menu ul{
+   display: flex;
+   justify-content: space-around;
+   border: none;   
+   height: 100%;
+   width: 100%;
+   left: 0;
+   right: 0;
+   top:0px;
+   
+  }
+     
+
+header nav #card_menu ul li {
+   font-size: 0.8em;  
+   padding-top: 10px;
+        
+}  
+
+header nav #card_menu ul li a{
+    line-height: 10px;
+     
+}
+
+.imagen_form img{
+   width: 350px;
+   height: 350px;
+  
+}
+.imagen_form >span{
+   margin-top: 20rem;
+   
+}
+
+#myForm_contenedor{
+  margin-left: 11rem;
+  margin-right: 11rem;
+}
+
+ #myPtto_contenedor{
+   margin-left: 9rem;
+   margin-right: 9rem;
+  
+} 
+
+#galeria{
+   grid-template-columns: repeat(3 , 1fr);
+
+}
+
+}
+
+
+@media screen and (min-width: 950px) and (max-width: 1200px){
+ 
+ header nav #card_menu ul li a{
+   font-size: 1.1em; 
+  
+}
+.titulo_footer{
+   margin-left: 30%;
+  
+}
+
+.rrss ul li{
+   font-size: 1.5rem;;
+   margin-left: 20%;
+}
+
+} 
+
+
+@media screen and (min-width: 1201px){
+   
+header nav #card_menu ul li {
+   font-size: 1em;  
+          
+}  
+
+#myForm_contenedor{
+  margin-left: 25%; 
+  margin-right: 25%;
+
+} 
+
+ #myPtto_contenedor{
+   margin-left: 20%;
+   margin-right: 20%;
+  
+} 
+
+.footer_datos{
+   margin-left: 12%;
+}
+
+.privacity_footer{
+   margin-left: 16%;
+}
+
+.rrss h3{
+   margin-left: 13%;
+}
+.rrss ul li{
+   font-size: 1.6rem;
+   margin-left: 21%;
+}
+
+
+}
